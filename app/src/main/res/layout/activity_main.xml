@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/asignatura1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="introduzca nombre asignatura 1"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/nota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nota asignatura 1"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/asignatura2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="introduzca nombre asignatura 2"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/nota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nota asignatura 2"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/asignatura3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="introduzca nombre asignatura 3"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/nota3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nota asignatura 3"
+        android:inputType="number"
+        />
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No ha asistido a clases"
+
+        />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calcular"
+        android:onClick="promedio"
+        />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.24"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
